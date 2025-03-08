@@ -2,18 +2,20 @@
 Bot for Chess.com for getting user status updates on telegram
 
 ## Configuration
-`TELEGRAM_TOKEN=""` **bot token from telegram**
+`TELEGRAM_TOKEN=""` 7717582814:AAGXy6bPDy30jAZJinklXPqVqZXH56waAqs
 
-`CHANNEL_ID=""` **channel id**
+`CHANNEL_ID=""` 7727392609
 
-`USERS=[ [ ] ]` **users list [Array of Array : (id, name)]**
-
+`USERS=[ [ ] ]` @chess_peshawabot
 
 ## Installation 
-`git clone https://github.com/code-logger/chess_bot`
+git clone git@github.com:Piterden/chessbot.git
+cd chessbot
+npm i`
 
-`pip install requests`
+cp .env.example .env
+editor .env
 
 
 ## Running 
-`python main.py`
+npm run knex migrate:latest
