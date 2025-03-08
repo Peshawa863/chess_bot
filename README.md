@@ -2,11 +2,11 @@
 Bot for Chess.com for getting user status updates on telegram
 
 ## Configuration
-`TELEGRAM_TOKEN=""` **bot token from telegram**
+`TELEGRAM_TOKEN=7717582814:AAGXy6bPDy30jAZJinklXPqVqZXH56waAqs
 
-`CHANNEL_ID=""` **channel id**
+`CHANNEL_ID=pepeossp
 
-`USERS=[ [ ] ]` **users list [Array of Array : (id, name)]**
+`USERS=@chess_peshawabot
 
 
 ## Installation 
